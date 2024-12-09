@@ -4,13 +4,13 @@ body {
 
 .profile-picture {
     display: flex;
-   flex-direction: column;
-   align-items: center;
-   height: 400px;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px;
-   padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
 
 }
 
@@ -30,11 +30,11 @@ img {
 h1 {
     font-family: Charme, sans-serif;
     color: #89bcca;
-    font-size: xx-large ;
+    font-size: xx-large;
     font-weight: bolder;
     text-align: center;
     position: relative;
-    top: -200px ;
+    top: -200px;
 
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 .github-button {
     text-align: center;
-    position: relative;    
+    position: relative;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
@@ -106,7 +106,7 @@ h2 {
     background-color: #317588;
     padding: 10px;
     box-shadow: 0 2px 5px rgba((0, 0, 0, 0.3), green, blue, alpha);
-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .github-button a:hover {
@@ -115,6 +115,33 @@ transition: all 0.3s ease-in-out;
 }
 
 .github-button img {
+    width: 25px;
+    height: 25px;
+}
+
+.email-button {
+    text-align: center;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.email-button a {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #317588;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+    transition: all 0.3s ease-in-out;
+}
+
+.email-button a:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.email-button img {
     width: 25px;
     height: 25px;
 }
