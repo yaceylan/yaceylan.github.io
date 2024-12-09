@@ -85,3 +85,36 @@ h2 {
     margin-top: 200px;
     text-align: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-button {
+    text-align: center;
+    position: relative;    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.github-button a {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #317588;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba((0, 0, 0, 0.3), green, blue, alpha);
+transition: all 0.3s ease-in-out;
+}
+
+.github-button a:hover {
+    background-color: #0c0a06;
+    transform: scale(1.1);
+}
+
+.github-button img {
+    width: 25px;
+    height: 25px;
+}
