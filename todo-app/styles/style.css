@@ -17,14 +17,14 @@ body {
     border-radius: 10px;
 }
 
-h1 {
+.text {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.form-container {
+.todo-form {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
@@ -32,10 +32,61 @@ h1 {
     height: 40px;
 }
 
-.input field {
+.todo-input  {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    aria-label: "Aufgabe hinzufügen";
+    placeholder: "Aufgabe hinzufügen";
 }
 
+.submit {
+    background-color: #0078d7;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.todo-button:hover {
+    background-color: #005bb5;
+    padding: 10px 20px;
+    placeholder:"Aufgabe hinzufügen";
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+    aria-label: "Aufgabe erledigen";
+    font-size: 1rem;
+}
+
+.todo-list li input[type="checkbox"]:active {
+    text-decoration: line-through;
+}
+
+.todo-list li button {
+    background-color: #d9534f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-list li button:hover {
+    background-color: #c9302c;
+    padding: 5px 10px;
+    aria-label:"Aufgabe löschen";
+}
