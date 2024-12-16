@@ -1,0 +1,14 @@
+body {
+   background-color: #f4f4f9;
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+}
+
+.todo-app {
+    max-width: 900px;
+    width: 90%;
+    box-sizing: border-box;
+}
