@@ -90,3 +90,10 @@ body {
     padding: 5px 10px;
     aria-label:"Aufgabe löschen";
 }
+
+.info {
+    text-align: center;
+    font-size: 0,9rem;
+    color: #666666;
+    margin-top: 20px;
+}
