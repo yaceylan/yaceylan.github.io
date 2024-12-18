@@ -7,13 +7,14 @@ body {
     height: 100vh;
 }
 
-h1 {
-    align-items: center;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-   }
-
+.container {
+    display: ;
+    place-items: center;
+    height: 100vh; /* oder eine feste Höhe */
+  }
+  
+ 
+  
   
 
 .todo-app {

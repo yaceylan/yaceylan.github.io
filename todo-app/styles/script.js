@@ -23,9 +23,17 @@ function saveTodos(todos) {
 }
 
 if (todos < 1) {
+return;
 }
 else {
   console.log("Keine Aufgaben")
 }
 console.log(JSON.stringify({ toDos }));
 
+function loadTodos(){
+  const loadTodos = localStorage.getItem("todos");
+  if (saveTodos){
+    toDos = JSON.parse(saveTodos);
+  }
+}
+ 
