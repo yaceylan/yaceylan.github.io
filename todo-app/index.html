@@ -8,22 +8,24 @@
     <script src="./script.js" defer></script>
     <title>To-Do-App</title>
 </head>
+
 <body>
     <h1>Meine To-Do-Liste</h1>
     <div class="todo-app">
-        <form id="todo-form" action="">
-            <ul id="todo-list"></ul>
-            <input type="text" id="new-task" aria-label="Neue Aufgabe hinzufügen"
-                placeholder="Neue Aufgabe hinzufügen">
+        <form class="todo-form" id="todo-form" action="">
+            <input type="text" id="new-task" aria-label="Neue Aufgabe hinzufügen" placeholder="Neue Aufgabe hinzufügen">
             <button id="submit" placeholder="Aufgabe hinzufügen" aria-label="Aufgabe hinzufügen">Hinzufügen</button>
         </form>
-       
-    <div id="checkbox"></div>
+        <ul id="todo-list">
+            <li>
                 <input type="checkbox">
                 <span>Aufgabentext</span>
                 <button id="Löschen">Löschen</button>
-           
+            </li>
+        </ul>
+        <div class="todo-info">zu erledigen:</div>
     </div>
- 
+
 </body>
+
 </html>

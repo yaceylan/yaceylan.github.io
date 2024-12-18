@@ -1,7 +1,7 @@
 // Elemente selektieren
-const form=document.querySelector("todo-form");
-const input = document.querySelector("todo-input");
-const list = document.querySelector("todo-list");
+const form = document.getElementById("todo-form");
+const input = document.getElementById("new-task");
+const button = document.getElementById("submit");
 
 
 //Funktion, zum Rendern der Todos in der Liste
@@ -13,16 +13,14 @@ function renderTodos() {
         </input>
 //Elemente aus dem DOM  (Formular, Eingabefeld und Liste)
 //const weil das Formular, das Eingabefeld und die Liste Elemente, die sich während der Ausführung des Programms nicht ändern sollen
-const todoform = document.getElementById("todo-form");
-const todoInput = document.getElementById('.todo-input');
-const todoList = document.getElementById('todo-list');
+
 
 // Event Listener für das Formular
-todoForm.addEventListener('submit', (event) => {
-    event.preventDefault(); // Verhindert das Standardverhalten des Formulars
+button.addEventListener("click", ()=>{
+    const task = input.value.preventDefault(); // Verhindert das Standardverhalten des Formulars
   
     // Leerzeichen entfernen
-    const newTodo = todoInput.value.trim();
+    const li =newTodo = todoInput.value.trim();
   
     // Beende die Funktion mit einem return-Statement, wenn das Eingabefeld leer ist
     if (todoInput)=== ''}
