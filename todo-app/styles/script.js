@@ -1,20 +1,20 @@
 // Elemente selektieren
-const form=document.querySelector('todo-form');
-const input = document.querySelector('todo-input');
-const list = document.querySelector('todo-list');
+const form=document.querySelector("todo-form");
+const input = document.querySelector("todo-input");
+const list = document.querySelector("todo-list");
 
 
 //Funktion, zum Rendern der Todos in der Liste
 function renderTodos() {
-    todoList.innerHTML= 
+    todoList.innerHTML=            // Gibt Zugriff auf HTML-Inhalt innerhalb dieses Elements
     <input type="checkbox">
         <span>${todos}</span>
         <button class="delete-button"<Löschen></button>;
         </input>
 //Elemente aus dem DOM  (Formular, Eingabefeld und Liste)
 //const weil das Formular, das Eingabefeld und die Liste Elemente, die sich während der Ausführung des Programms nicht ändern sollen
-const todoForm = document.getElementById('todo-form');
-const todoInput = document.querySelector('.todo-input');
+const todoform = document.getElementById("todo-form");
+const todoInput = document.getElementById('.todo-input');
 const todoList = document.getElementById('todo-list');
 
 // Event Listener für das Formular
@@ -40,7 +40,7 @@ const todos = [];
   }
 
   // Leere das input-Element
-  todoInput.value = ''; {
+  todoInput.value = ''; { 
   }
 
   // Checkbox
