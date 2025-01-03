@@ -8,13 +8,10 @@ body {
 }
 
 .container {
-    display: ;
+    display: grid;
     place-items: center;
-    height: 100vh; /* oder eine feste Höhe */
+    height: 100vh; /* Wenn du die Überschrift vertikal zentrieren möchtest */
   }
-  
- 
-  
   
 
 .todo-app {
